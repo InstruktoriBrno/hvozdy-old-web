@@ -1,0 +1,123 @@
+/*
+ Theme Name:   	Hvozdy Theme
+ Theme URI:    	http://pavelsimecek.cz
+ Description:  	Šablona pro Moravské hvozdy
+ Author: 	Pavel Šimeček a neznámý grafik (Zbyšek Podhrázský?)
+ Author URI: 	http://pavelsimecek.cz
+ Template:     	hvozdy
+ Version:      	0.0.1
+ License: GNU 	General Public License
+ License URI: 	license.txt
+ Text Domain: 	hvozdy
+ Domain Path: 	/languages/
+*/
+
+body { font:normal 1em/1.35em calibri, verdana, sans-serif, georgia; color:#9A946B;; margin:0px; padding:0px; }
+
+h1 { font-size:1.6em; color:#9A946B; margin:1em 0em 0.5em 53px; padding:0em; line-height:1.35em; }
+h2 { font-size:1.30em; color:#9A946B; margin:0.4em 0em 0.6em 0px; padding:0em; line-height:1.35em; }
+h3 { font-size:1.20em; color:#9A946B; margin:1em 0em 0em 0px; padding:0em; line-height:1.35em; }
+h4 { font-size:1.00em; color:#9A946B; margin:1em 0em 0px 0.5em; padding:0em; line-height:1.35em; }
+h5 { font-size:1.00em; color:#9A946B; margin:1em 0em 2.0em 0px; padding:0em; line-height:1.35em; }
+h6 { font-size:1.00em; color:#9A946B; margin:1em 0em 0.6em 0px; padding:0em; line-height:1.35em; }
+
+.nadpis { font-size:1.0em; font-weight:bold; color:white; border:4px solid white; border-width:4px 0px; margin:0em; padding:0.2em 0.5em; }
+.nadpis a { color:white; }
+
+p { margin:0.5em 0.5em 1em 0.5em; padding:0em; border-bottom:0px solid #EDEDD5; }
+
+dl { margin:0.5em 0.4em; }
+dd { margin:0em; padding:0.1em 0em 0.5em 1em; border-bottom:1px dotted gray; }
+dt { margin:1em 0em 0em 0em; font-weight:bold; }
+
+ul, ol { color:#9A946B; }
+ul li { list-style-image:url('http://hvozdy.instruktori.cz/jaro-2019/wp-content/themes/hvozdy/img/li.gif'); }
+
+a { color:#9A946B; text-decoration:underline; }
+p a:hover, ul a:hover, ol a:hover       { color:#9A946B;}
+p a:visited, ul a:visited, ol a:visited { color:#9A946B; }
+p a:active, ul a:active, ol a:active    { color:#9A946B; }
+a span { display:none; }
+
+cite { display:block; padding:0.5em; margin:1.5em 1.5em 1.5em 1.5em; border:1px solid #999999; }
+ 
+#content a[href^='http:'] { background:url('http://hvozdy.instruktori.cz/jaro-2019/wp-content/themes/hvozdy/img/new_win.gif') center right no-repeat transparent; padding-right:20px; }
+#content a[href^='http:'] img { background-image:none; padding-right:0px; }
+
+abbr { cursor:help; }
+label { clear:both; display:block; float:left; width:220px; text-align:right; margin:1px 5px 1px 0px; font-weight:bold; color:#9A946B; }
+img { border-width:0px;}
+
+hr { margin:1em 0em; padding:0em; font-size:1px; width:100%; height:1px; border-width:0px; background-color:#84A635; clear:both; }
+
+textarea,
+input[type='text'] ,
+input[type='file'] ,
+input[type='password'] { border:1px solid gray; padding:2px 3px; margin:1px 0px;  }
+input[type='submit'] { border:1px solid gray; margin:5px 0px; padding:2px 3px; background-color:#2B2B20; color:#9A946B; }
+input[type='submit']:hover { color:#9A946B; border-color:#9A946B; }
+input.submit { cursor:pointer; }
+
+table td { vertical-align:top; font-size:80%; }
+
+html { text-align:center; margin:0em; padding:0em; background:url('img/bg.jpg') 50% 371px repeat-y black; }
+body { margin:0em 0em; padding:0em; text-align:center; }
+/* cely blok stranky */
+
+body {  }
+#hp { margin:0em auto; overflow:hidden; }
+#kontejner { background:url('img/zahlavi-b.jpg') top center no-repeat; }
+#page { width:1002px; margin:0em auto; }
+#logo { margin:0em auto; height:215px; }
+
+  #menu { text-align:left; text-decoration: none; font-family: 'Cormorant SC', serif; font-weight: bold; font-size: 28px; }
+
+  #menu ul { margin:0px; padding:0px 0px 0px 26px; list-style-type:none; clear:both; height:36px; background:url('img/menu.png') 0px 0px repeat-x; }
+  #menu ul li { margin:6px; padding-left:10px; float:left; }
+  #menu ul li a { text-decoration: none; }
+  #menu ul li.current_page_item a { text-decoration: underline; }
+
+  #menu ul li a:hover { text-decoration:underline; }
+
+
+  #conpage { text-align:left; overflow:hidden; padding:0px 24px 24px 53px; background-color:black; }
+    #conpage a img { padding:6px; background-color:#EFEFEF; border:1px solid #999999; }
+
+  h1#nadpis { width:100%; height:138px; margin:0em; text-align: left; padding:0px; background-color:black; }
+  h1#nadpis span { display: inline-block; margin-left: 54px; padding-top: 56px; font-family: 'Cormorant SC', serif; font-weight: bold; font-size: 56px; }
+
+
+#paticka { background:url('img/footer.gif') top center no-repeat; height:142px; margin:0; }
+#paticka #instruktori { display:block; width:1002px; height:142px; margin:0px auto; }
+
+hr { clear:both; }
+  
+/* pomocne formatovaci tagy */
+.hidden { display:none; }
+.cleaner { display:block; width:100%; clear:both; height:1px; margin:-1px 0 0 0; padding:0; border:none; visibility:hidden; font-size:1px; }
+.noindent { margin:1em 0em 0.5em 0em; }
+
+/* zarovnavaci znacky */
+.r { text-align:right; }
+.l { text-align:left; }
+.c { text-align:center; }
+.j { text-align:justify; }
+.fr { float:right; }
+.fl { float:left; }
+
+/* znacky pro plovouci bloky */
+.box50L { display:block; width:49%; float:left; }
+.box50R { display:block; width:49%; float:right; }
+
+/* styl obrazku na page 404 */
+img.gloom { margin:10px; float:left; border-width:0px; }
+
+div.errors { font-size:10px; padding: 10px 10px 10px 10px; border-style: solid; border-width: 1px; border-color: #FFCCAA; color: #FFCCAA; }
+
+table.armies {
+    width: 100%;
+}
+
+ol.army {
+    font-size: 16px;
+}

@@ -1,0 +1,91 @@
+@import "basic.css";
+
+html { text-align:center; margin:0em; padding:0em; background:url('../img/bg.jpg') 50% 371px repeat-y black; }
+body { margin:0em 0em; padding:0em; text-align:center; background:url('../img/zahlavi-a.jpg') top center no-repeat; }
+/* cely blok stranky */
+
+body {  }
+#hp { margin:0em auto; overflow:hidden; }
+#kontejner { background:url('../img/zahlavi-b.jpg') top center no-repeat; }
+#page { width:1002px; margin:0em auto; }
+#logo { margin:0em auto; height:215px; }
+
+  #menu { text-align:left; }
+
+  #menu ul { margin:0em; padding:0em 0em 0em 26px; list-style-type:none; clear:both; height:36px; background:url('../img/menu.png') 0px 0px repeat-x; }
+  #menu ul li { margin:0em; padding:0em; float:left; }
+  #menu ul li.span { display:none; }
+  #menu ul li.act a { color:yellow; }
+  #menu ul li a { display:block; height:36px; background:url('../img/menuItems.png') 0px 0px no-repeat; }
+ 
+  #menu ul li#m1 a { background-position:0px 0px; width:95px; }
+  #menu ul li#m1.act a,
+  #menu ul li#m1 a:hover { background-position:0px -36px; }
+
+  #menu ul li#m2 a { background-position:-95px 0px; width:160px; }
+  #menu ul li#m2.act a,
+  #menu ul li#m2 a:hover { background-position:-95px -36px; }
+
+  #menu ul li#m3 a { background-position:-255px 0px; width:160px; }
+  #menu ul li#m3.act a,
+  #menu ul li#m3 a:hover { background-position:-255px -36px; }
+
+  #menu ul li#m4 a { background-position:-415px 0px; width:141px; }
+  #menu ul li#m4.act a,
+  #menu ul li#m4 a:hover { background-position:-415px -36px; }
+
+  #menu ul li#m5 a { background-position:-556px 0px; width:193px; }
+  #menu ul li#m5.act a,
+  #menu ul li#m5 a:hover { background-position:-556px -36px; }
+
+  #menu ul li#m6 a { background-position:-749px 0px; width:116px; }
+  #menu ul li#m6.act a,
+  #menu ul li#m6 a:hover { background-position:-749px -36px; }
+
+  #menu ul li#m7 a { background-position:-865px 0px; width:73px; }
+  #menu ul li#m7.act a,
+  #menu ul li#m7 a:hover { background-position:-865px -36px; }
+
+
+  #menu ul li a:hover { text-decoration:underline; }
+
+
+  #conpage { text-align:left; overflow:hidden; padding:0px 24px 24px 53px; background-color:black; }
+    #conpage a img { padding:6px; background-color:#EFEFEF; border:1px solid #999999; }
+
+  h1#nadpis { width:100%; height:138px; margin:0em; padding:0px; background-color:black; }
+  h1#nadpis span { display:none; }
+  h1#nadpis.uvod { background:url('../img/n-uvod.gif') 53px 53px no-repeat black; }
+  h1#nadpis.pravidla { background:url('../img/n-pravidla.gif') 53px 53px no-repeat black; }
+  h1#nadpis.historie { background:url('../img/n-historie.gif') 53px 53px no-repeat black; }
+  h1#nadpis.armady { background:url('../img/n-armady.gif') 53px 53px no-repeat black; }
+  h1#nadpis.registrace { background:url('../img/n-registrace.gif') 53px 53px no-repeat black; }
+  h1#nadpis.fotky { background:url('../img/n-fotky.png') 53px 53px no-repeat black; }
+  h1#nadpis.tym { background:url('../img/n-tym.gif') 53px 53px no-repeat black; }
+
+
+#paticka { background:url('../img/footer.gif') top center no-repeat; height:142px; margin:0; }
+#paticka #instruktori { display:block; width:1002px; height:142px; margin:0px auto; }
+
+hr { clear:both; }
+  
+/* pomocne formatovaci tagy */
+.hidden { display:none; }
+.cleaner { display:block; width:100%; clear:both; height:1px; margin:-1px 0 0 0; padding:0; border:none; visibility:hidden; font-size:1px; }
+.noindent { margin:1em 0em 0.5em 0em; }
+
+/* zarovnavaci znacky */
+.r { text-align:right; }
+.l { text-align:left; }
+.c { text-align:center; }
+.j { text-align:justify; }
+.fr { float:right; }
+.fl { float:left; }
+
+/* znacky pro plovouci bloky */
+.box50L { display:block; width:49%; float:left; }
+.box50R { display:block; width:49%; float:right; }
+
+/* styl obrazku na page 404 */
+img.gloom { margin:10px; float:left; border-width:0px; }
+
